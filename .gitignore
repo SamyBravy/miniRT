@@ -1,2 +1,26 @@
+# Object files
+*.o
+*.d
+
+# Libraries (compiled locally)
+*.a
+
+# Executables
+miniRT
+miniRT_bonus
+a.out
+
+# Editor directories and files
 .vscode/
-minilibx-linux/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Generated output validation
+*.bmp
+
+# Note: If you want to commit specific BMPs for the README (e.g. in results/), use:
+# git add -f results/image.bmp
