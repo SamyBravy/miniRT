@@ -60,8 +60,7 @@ SRCS =	./get_next_line/get_next_line.c \
 				srcs/init_bonus.c
 
 MAKE_LIBFT = make -C libft
-
-MAKE_MLX =  make -C minilibx-linux
+MAKE_MLX = make -C minilibx-linux > /dev/null 2>&1
 
 OBJS = $(SRCS:.c=.o)
 
