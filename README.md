@@ -33,6 +33,13 @@ This engine renders computer-generated images by tracing the path of light rays 
 
 ## Installation & Usage
 
+### Linux prerequisites  
+Before building on Linux (or WSL), install the MiniLibX dependencies:
+```bash
+sudo apt-get update
+sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-dev
+```
+
 ### Build
 ```bash
 make
@@ -58,7 +65,7 @@ python3 render_all.py
 ## 📂 Project Structure
 
 *   `scenes/`: Contains all `.rt` scene description files.
-*   `results/`: Rendered BMP images.
+*   `results/`: Rendered images.
 *   `srcs/`: Source code.
 *   `includes/`: Header files.
 
@@ -92,5 +99,6 @@ Scenes are defined in `.rt` files:
 | **pl** | Plane | `x,y,z` `norm_x,norm_y,norm_z` `R,G,B` |
 | **cy** | Cylinder | `x,y,z` `norm_x,norm_y,norm_z` `diameter` `height` `R,G,B` |
 | **h_p** | Hyperbolic Paraboloid | `parameters(A,B,C,D,E,F,G)` `size` `R,G,B` |
+
 
 ---
