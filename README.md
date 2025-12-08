@@ -8,7 +8,7 @@ This engine renders computer-generated images by tracing the path of light rays 
 
 ## Gallery
 
-![Room](results/room1.bmp)
+![Room](results/room1.png)
 ![Hyperbolic Paraboloid](results/hyperbolic_paraboloid_lights_room.png)
 ![Three Lights](results/ball_3lights.png)
 ![Beautiful Lights](results/beautiful_lights_scene.png)
@@ -102,4 +102,5 @@ Scenes are defined in `.rt` files:
 
 
 ---
+
 
