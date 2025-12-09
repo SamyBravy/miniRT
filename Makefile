@@ -79,20 +79,19 @@ $(NAME): $(OBJS)
 		@$(MAKE_LIBFT) > /dev/null
 		@$(MAKE_MLX) > /dev/null
 		@$(CC) $(CC_FLAGS) $(OBJS) -Lmlx_linux ./libft/libft.a ./minilibx-linux/libmlx.a -lXext -lX11 -lm -lz -o $(NAME)
-		@echo "\e[0;32mCompleted! 🤠\e[0;m"
+		@echo "\e[0;32m[$(NAME)] compiled!\e[0;m"
 		
 clean:
-		@echo "Cleaning up..."
 		@$(MAKE) clean -C ./libft > /dev/null
-		$(RM) $(OBJS)
-		@echo "\e[0;31mCleaned! 🧹\e[0;m"
+		@$(MAKE) clean -C ./minilibx-linux > /dev/null
+		@$(RM) $(OBJS)
+		@echo "\e[0;31mcleaned!\e[0;m"
 
 fclean:
-		@echo "\e[0;32mWait ...\e[0;m"
 		@$(MAKE) fclean -C ./libft > /dev/null
-		$(RM) $(OBJS) $(NAME)
+		@$(RM) $(OBJS) $(NAME)
 		@$(MAKE) clean -C ./minilibx-linux > /dev/null
-		@echo "\e[0;32mCleaned! 🧹\e[0;m"
+		@echo "\e[0;31m[$(NAME)] deleted!\e[0;m"
 
 re: fclean all
 
