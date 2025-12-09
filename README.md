@@ -8,11 +8,18 @@ This engine renders computer-generated images by tracing the path of light rays 
 
 ## Gallery
 
-![Room](results/room1.png)
-![Hyperbolic Paraboloid](results/hyperbolic_paraboloid_lights_room.png)
-![Three Lights](results/ball_3lights.png)
-![Beautiful Lights](results/beautiful_lights_scene.png)
-![Galaxy](results/galaxy.png)
+<div align="center">
+  <img src="results/room1.png" alt="Room" width="300" />
+  <img src="results/hyperbolic_paraboloid_room.png" alt="Hyperbolic Paraboloid Room" width="300" />
+</div>
+<div align="center">
+  <img src="results/hyperbolic_paraboloid_lights_room.png" alt="Hyperbolic Paraboloid Light Room" width="300" />
+  <img src="results/ball_3lights.png" alt="Ball 3 Lights" width="300" />
+</div>
+<div align="center">
+  <img src="results/beautiful_lights_scene.png" alt="Beautiful Lights Scene" width="300" />
+  <img src="results/galaxy.png" alt="Galaxy" width="300" />
+</div>
 
 ---
 
